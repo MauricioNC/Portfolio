@@ -8,7 +8,7 @@ import './index.css'
 
 function App() {
   return (
-    <main className='w-full col-span-12 xl:col-start-2 xl:col-span-10'>
+    <main className='w-full col-span-12 xl:col-start-3 xl:col-span-8'>
       <Topbar />
       <Hero />
       <Experience />
