@@ -7,9 +7,9 @@ function Hero() {
     <article className='w-full flex flex-col lg:flex-row justify-center lg:justify-between items-center lg:items-stretch min-h-[100vh] mb-10'>
       <div className='flex flex-col items-center lg:items-start justify-center gap-2 text-center md:text-left'>
         <h2 className='text-balance'>Hi there!</h2>
-        <h1 className='text-5xl md:text-6xl text-balance mb-5 leading-[1.15] text-center lg:text-start'>
+        <h1 className='text-5xl md:text-6xl text-balance mb-5 text-center lg:text-start md:leading-[1.13]'>
           I'm Mauricio, Back-end developer with{' '}
-          <span className='text-[crimson] font-medium'>Ruby on Rails </span>
+          <span className='text-[crimson] font-semibold'>Ruby on Rails </span>
           from &#x1F1F2;&#x1F1FD;
         </h1>
         <div className='lg:self-start flex justify-center items-center gap-3'>
@@ -18,13 +18,13 @@ function Hero() {
             <hr className='w-[150px] bg-[crimson] border-0 h-[0.064rem]' />
           </span>
           <a
-            className='bg-[#151718] p-2  relative rounded-full flex items-center justify-center transition-all duration-300 hover:contrast-125'
+            className='bg-[#151718] p-2  relative rounded-full flex items-center justify-center transition-all duration-300 hover:contrast-[1.1]'
             href='https://www.linkedin.com/in/mauricionc/'
             target='blank'>
             <Linkedin />
           </a>
           <a
-            className='bg-[#151718] p-2  relative rounded-full flex items-center justify-center transition-all duration-300 hover:contrast-125'
+            className='bg-[#151718] p-2  relative rounded-full flex items-center justify-center transition-all duration-300 hover:contrast-[1.1]'
             href='https://github.com/MauricioNC'
             target='blank'>
             <Github />
