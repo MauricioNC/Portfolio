@@ -1,16 +1,43 @@
 import profile from '../assets/images/profile.jpg'
+import Github from './icons/Github'
+import Linkedin from './icons/Linkedin'
 
 function Hero() {
   return (
-    <article>
-      <div>
-        <h1>Hi! I'm Mauricio</h1>
-        <p>
-          Back-end developer with{' '}
-          <span>Ruby on Rails living in &#x1F1F2;&#x1F1FD;</span>
-        </p>
+    <article className='w-full flex flex-col lg:flex-row justify-center lg:justify-between items-center lg:items-stretch min-h-[100vh] mb-10'>
+      <div className='flex flex-col items-center lg:items-start justify-center gap-2 text-center md:text-left'>
+        <h2 className='text-balance'>Hi there!</h2>
+        <h1 className='text-5xl md:text-6xl text-balance mb-5 leading-[1.15] text-center lg:text-start'>
+          I'm Mauricio, Back-end developer with{' '}
+          <span className='text-[crimson] font-medium'>Ruby on Rails </span>
+          from &#x1F1F2;&#x1F1FD;
+        </h1>
+        <div className='lg:self-start flex justify-center items-center gap-3'>
+          <span className='flex flex-row items-center gap-3 text-lg'>
+            Checkout my
+            <hr className='w-[150px] bg-[crimson] border-0 h-[0.064rem]' />
+          </span>
+          <a
+            className='bg-[#151718] p-2  relative rounded-full flex items-center justify-center transition-all duration-300 hover:contrast-125'
+            href='https://www.linkedin.com/in/mauricionc/'
+            target='blank'>
+            <Linkedin />
+          </a>
+          <a
+            className='bg-[#151718] p-2  relative rounded-full flex items-center justify-center transition-all duration-300 hover:contrast-125'
+            href='https://github.com/MauricioNC'
+            target='blank'>
+            <Github />
+          </a>
+        </div>
       </div>
-      <img src={profile} alt='User profile image' width={200} />
+      <picture className='aspect-square rounded-md w-[350px] h-[450px] xl:w-[400px] xl:h-[550px] mt-10 lg:mt-0 self-center'>
+        <img
+          className='object-cover rounded-md w-full h-full'
+          src={profile}
+          alt='User profile image'
+        />
+      </picture>
     </article>
   )
 }

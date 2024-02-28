@@ -1,6 +1,9 @@
+@import "./styles/Hero.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 * {
   box-sizing: border-box;
@@ -9,6 +12,7 @@
 body {
   overflow: hidden;
   overflow-y: auto;
+  color: rgba(255, 255, 255, 0.96);
 }
 
 h1 {
@@ -33,4 +37,8 @@ h5 {
 
 h6 {
   @apply text-base
+}
+
+svg {
+  display: flex;
 }
