@@ -8,14 +8,20 @@ import './index.css'
 
 function App() {
   return (
-    <main className='w-full col-span-12 xl:col-start-3 xl:col-span-8'>
-      <Topbar />
-      <Hero />
-      <Experience />
-      <Projects />
-      <Skills />
-      <About />
-    </main>
+    <>
+      <div className='w-full col-span-12 2xl:col-start-3 2xl:col-span-8'>
+        <Topbar />
+        <Hero />
+      </div>
+      <div className='w-full col-span-12 xl:col-start-3 xl:col-span-8'>
+        <main>
+          <Experience />
+          <Projects />
+          <Skills />
+          <About />
+        </main>
+      </div>
+    </>
   )
 }
 

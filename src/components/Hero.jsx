@@ -12,26 +12,28 @@ function Hero() {
           <span className='text-[crimson] font-semibold'>Ruby on Rails </span>
           from &#x1F1F2;&#x1F1FD;
         </h1>
-        <div className='lg:self-start flex justify-center items-center gap-3'>
-          <span className='flex flex-row items-center gap-3 text-lg'>
+        <div className='lg:self-start flex flex-col md:flex-row justify-center items-center gap-3'>
+          <span className='flex flex-col md:flex-row items-center gap-3 text-lg'>
             Checkout my
-            <hr className='w-[150px] bg-[crimson] border-0 h-[0.064rem]' />
+            <hr className='w-[2px] h-[40px] bg-[crimson] border-0 md:w-[150px] md:h-[0.064rem]' />
           </span>
-          <a
-            className='bg-[#151718] p-2  relative rounded-full flex items-center justify-center transition-all duration-300 hover:contrast-[1.1]'
-            href='https://www.linkedin.com/in/mauricionc/'
-            target='blank'>
-            <Linkedin />
-          </a>
-          <a
-            className='bg-[#151718] p-2  relative rounded-full flex items-center justify-center transition-all duration-300 hover:contrast-[1.1]'
-            href='https://github.com/MauricioNC'
-            target='blank'>
-            <Github />
-          </a>
+          <div className='flex flex-row'>
+            <a
+              className='bg-[#151718] p-2  relative rounded-full flex items-center justify-center transition-all duration-300 hover:contrast-[1.1]'
+              href='https://www.linkedin.com/in/mauricionc/'
+              target='blank'>
+              <Linkedin />
+            </a>
+            <a
+              className='bg-[#151718] p-2  relative rounded-full flex items-center justify-center transition-all duration-300 hover:contrast-[1.1]'
+              href='https://github.com/MauricioNC'
+              target='blank'>
+              <Github />
+            </a>
+          </div>
         </div>
       </div>
-      <picture className='aspect-square rounded-md w-[350px] h-[450px] xl:w-[400px] xl:h-[550px] mt-10 lg:mt-0 self-center'>
+      <picture className='aspect-square rounded-md w-[300px] h-[400px] 2xl:w-[400px] 2xl:h-[550px] mt-10 lg:mt-0 self-center'>
         <img
           className='object-cover rounded-md w-full h-full'
           src={profile}
