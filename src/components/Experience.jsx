@@ -1,7 +1,7 @@
 function Experience() {
   return (
     <section className='flex flex-col justify-between items-stretch mb-10'>
-      <div className="mb-16 self-center relative flex items-center justify-center before:content-[''] before:w-[130%] before:h-[0.18rem] before:bg-[crimson] before:absolute">
+      <div className="mb-14 self-center relative flex items-center justify-center before:content-[''] before:w-[130%] before:h-[0.18rem] before:bg-[crimson] before:absolute">
         <h6 className="z-10 bg-[#1D2021] px-2 relative flex items-center before:-left-7 before:content[''] before:absolute before:w-2 before:h-2 before:bg-[crimson] before:rounded-full after:-right-7 after:content[''] after:absolute after:w-2 after:h-2 after:bg-[crimson] after:rounded-full">
           Job experience
         </h6>

@@ -4,7 +4,7 @@ import Linkedin from './icons/Linkedin'
 
 function Hero() {
   return (
-    <article className='w-full flex flex-col lg:flex-row justify-center lg:justify-between items-center lg:items-stretch min-h-[100vh] mb-10'>
+    <article className='w-full flex flex-col lg:flex-row justify-center lg:justify-between items-center lg:items-stretch min-h-[100vh]'>
       <div className='flex flex-col items-center lg:items-start justify-center gap-2 text-center md:text-left'>
         <h2 className='text-balance'>Hi there!</h2>
         <h1 className='text-balance mb-5 text-center lg:text-start md:leading-[1.13]'>
@@ -17,7 +17,7 @@ function Hero() {
             Checkout my
             <hr className='w-[2px] h-[40px] bg-[crimson] border-0 md:w-[150px] md:h-[0.064rem]' />
           </span>
-          <div className='flex flex-row'>
+          <div className='flex flex-row gap-3'>
             <a
               className='bg-[#151718] p-2  relative rounded-full flex items-center justify-center transition-all duration-300 hover:contrast-[1.1]'
               href='https://www.linkedin.com/in/mauricionc/'
