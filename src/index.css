@@ -1,4 +1,5 @@
 @import "./styles/Hero.css";
+@import "./styles/Experience.css";
 
 @tailwind base;
 @tailwind components;
@@ -11,8 +12,6 @@
 }
 
 body {
-  overflow: hidden;
-  overflow-y: auto;
   color: rgba(255, 255, 255, 0.96);
 }
 
