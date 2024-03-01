@@ -18,6 +18,7 @@ function Projects() {
               src={newlineblog}
               alt='New Line blog screenshot of the home page'
               className='aspect-video object-cover object-top rounded-tl-md rounded-tr-md group-hover:scale-105 transition-all duration-500 ease-in-out w-full h-[260px]'
+              loading='lazy'
             />
           </div>
           <div className='p-3'>
@@ -43,6 +44,7 @@ function Projects() {
               src={moviesnop}
               alt='New Line blog screenshot of the home page'
               className='aspect-video object-cover object-top rounded-tl-md rounded-tr-md group-hover:scale-105 transition-all duration-500 ease-in-out w-full h-[260px]'
+              loading='lazy'
             />
           </div>
           <div className='p-3'>
