@@ -12,12 +12,12 @@ function Projects() {
         </h2>
       </div>
       <div className='columns-1 md:columns-2 gap-5 space-y-5'>
-        <article className='w-full break-inside-avoid group hover:bg-[#181a1a] rounded-lg transition duration-500 ease-in-out'>
+        <article className='w-full break-inside-avoid group md:hover:bg-[#181a1a] rounded-lg transition duration-500 ease-in-out'>
           <div className='relative overflow-clip rounded-tl-md rounded-tr-md'>
             <img
               src={newlineblog}
               alt='New Line blog screenshot of the home page'
-              className='aspect-video object-cover object-top rounded-tl-md rounded-tr-md group-hover:scale-105 transition-all duration-500 ease-in-out w-full h-[260px]'
+              className='aspect-video object-cover object-top rounded-tl-md rounded-tr-md md:group-hover:scale-105 transition-all duration-500 ease-in-out w-full h-[260px]'
               loading='lazy'
             />
           </div>
@@ -38,12 +38,12 @@ function Projects() {
             </div>
           </div>
         </article>
-        <article className='w-full break-inside-avoid group hover:bg-[#181a1a] rounded-lg transition duration-500 ease-in-out'>
+        <article className='w-full break-inside-avoid group md:hover:bg-[#181a1a] rounded-lg transition duration-500 ease-in-out'>
           <div className='relative overflow-clip rounded-tl-md rounded-tr-md'>
             <img
               src={moviesnop}
               alt='New Line blog screenshot of the home page'
-              className='aspect-video object-cover object-top rounded-tl-md rounded-tr-md group-hover:scale-105 transition-all duration-500 ease-in-out w-full h-[260px]'
+              className='aspect-video object-cover object-top rounded-tl-md rounded-tr-md md:group-hover:scale-105 transition-all duration-500 ease-in-out w-full h-[260px]'
               loading='lazy'
             />
           </div>
