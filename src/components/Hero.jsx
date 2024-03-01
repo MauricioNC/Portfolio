@@ -28,7 +28,7 @@ function Hero() {
               className='bg-[#151718] p-2  relative rounded-full flex items-center justify-center transition-all duration-300 hover:contrast-[1.1]'
               href='https://github.com/MauricioNC'
               target='blank'>
-              <Github />
+              <Github width={36} height={36} strokeWidth={1} />
             </a>
           </div>
         </div>
