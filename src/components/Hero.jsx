@@ -1,4 +1,4 @@
-import profile from '../assets/images/profile.jpg'
+import profile from '../assets/images/profile.webp'
 import Github from './icons/Github'
 import Linkedin from './icons/Linkedin'
 
