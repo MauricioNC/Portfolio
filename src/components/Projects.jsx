@@ -6,10 +6,10 @@ import Github from './icons/Github'
 function Projects() {
   return (
     <section className='flex flex-col items-stretch'>
-      <div className="self-center mb-14 relative flex items-center justify-center before:content-[''] before:w-[130%] before:h-[0.18rem] before:bg-[crimson] before:absolute">
-        <h2 className="z-10 bg-[#1D2021] px-2 relative flex items-center before:-left-11 before:content[''] before:absolute before:w-2 before:h-2 before:bg-[crimson] before:rounded-full after:-right-11 after:content[''] after:absolute after:w-2 after:h-2 after:bg-[crimson] after:rounded-full">
+      <div className="self-center mb-14 relative flex items-center justify-center before:content-[''] before:w-[136%] md:before:w-[130%] before:h-[0.18rem] before:bg-[crimson] before:absolute">
+        <h3 className="z-10 bg-[#1D2021] px-2 relative flex items-center before:-left-11 before:content[''] before:absolute before:w-2 before:h-2 before:bg-[crimson] before:rounded-full after:-right-11 after:content[''] after:absolute after:w-2 after:h-2 after:bg-[crimson] after:rounded-full">
           Latest projects
-        </h2>
+        </h3>
       </div>
       <div className='columns-1 md:columns-2 gap-5 space-y-5'>
         <article className='w-full break-inside-avoid group md:hover:bg-[#181a1a] rounded-lg transition duration-500 ease-in-out'>
