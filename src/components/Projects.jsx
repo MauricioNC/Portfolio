@@ -17,7 +17,7 @@ function Projects() {
             <img
               src={newlineblog}
               alt='New Line blog screenshot of the home page'
-              className='aspect-video object-cover object-top rounded-tl-md rounded-tr-md md:group-hover:scale-105 transition-all duration-500 ease-in-out w-full h-[260px]'
+              className='aspect-video object-cover object-top rounded-tl-md rounded-tr-md h-38 md:h-48 xl:h-60 md:group-hover:scale-[1.05] transition-all duration-500 ease-in-out w-full'
               loading='lazy'
             />
           </div>
@@ -43,7 +43,7 @@ function Projects() {
             <img
               src={moviesnop}
               alt='New Line blog screenshot of the home page'
-              className='aspect-video object-cover object-top rounded-tl-md rounded-tr-md md:group-hover:scale-105 transition-all duration-500 ease-in-out w-full h-[260px]'
+              className='aspect-video object-cover object-top rounded-tl-md rounded-tr-md h-38 md:h-48 xl:h-60 md:group-hover:scale-[1.05] transition-all duration-500 ease-in-out w-full'
               loading='lazy'
             />
           </div>
