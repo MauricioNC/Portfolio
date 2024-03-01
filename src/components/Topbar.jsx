@@ -21,9 +21,8 @@ function Topbar() {
 
   return (
     <nav className='flex flex-row w-full justify-between items-center px-4 md:px-20 lg:px-24 xl:px-36 -bottom-20 left-0 fixed md:absolute md:top-6 md:bottom-auto bg-[#121414] md:bg-transparent z-20 overflow-x-scroll whitespace-nowrap transition-all duration-150 md:overflow-hidden md:whitespace-normal md:transition-none md:duration-0'>
-      <div className='text-2xl hidden md:flex'>
-        <span className='text-[crimson] font-bold'>{'</'}</span>MauricioNC
-        <span className='text-[crimson] font-bold'>{'>'}</span>
+      <div className="text-2xl hidden md:flex gap-1 before:content-['</'] before:text-[crimson] before:font-bold after:content-['>'] after:font-bold after:text-[crimson] before:hover:-translate-x-2 before:transition-all before:duration-300 after:hover:translate-x-2 after:transition-all after:duration-300">
+        MauricioNC
       </div>
       <div className='w-full md:w-auto'>
         <ul className='flex flex-row gap-4 items-center justify-between md:justify-normal'>
