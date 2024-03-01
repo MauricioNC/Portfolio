@@ -2,7 +2,7 @@ function Skills() {
   return (
     <section>
       <article>
-        <h2>Soft kills</h2>
+        <h2>Soft skills</h2>
         <ul>
           <li>Communication</li>
           <li>Temawork</li>
