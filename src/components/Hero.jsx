@@ -5,17 +5,16 @@ import Linkedin from './icons/Linkedin'
 function Hero() {
   return (
     <article className='w-full flex flex-col lg:flex-row justify-center lg:justify-between items-center lg:items-stretch min-h-[100vh]'>
-      <div className='flex flex-col items-center lg:items-start justify-center gap-2 text-center md:text-left'>
+      <div className='flex flex-col justify-center lg:items-start gap-2 md:text-left'>
         <h2 className='text-balance'>Hi there!</h2>
-        <h1 className='text-balance mb-5 text-center lg:text-start md:leading-[1.13]'>
+        <h1 className='text-balance mb-5 md:leading-[1.13]'>
           I'm Mauricio, Back-end developer with{' '}
           <span className='text-[crimson] font-semibold'>Ruby on Rails </span>
           from &#x1F1F2;&#x1F1FD;
         </h1>
-        <div className='lg:self-start flex flex-col md:flex-row justify-center items-center gap-3'>
-          <span className='flex flex-col md:flex-row items-center gap-3 text-lg'>
+        <div className='lg:self-start flex md:flex-row justify-start items-center gap-3'>
+          <span className="flex flex-row items-center justify-center gap-3 text-lg relative after:content-[''] after:bg-[crimson] after:w-20 after:h-[0.13rem] after:z-10 after:right-0">
             Checkout my
-            <hr className='w-[2px] h-[40px] bg-[crimson] border-0 md:w-[150px] md:h-[0.064rem]' />
           </span>
           <div className='flex flex-row gap-3'>
             <a
