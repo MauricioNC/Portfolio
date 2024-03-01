@@ -1,12 +1,12 @@
-function Github() {
+function Github(props) {
   return (
     <svg
       xmlns='http://www.w3.org/2000/svg'
       className='icon icon-tabler icon-tabler-brand-github'
-      width={36}
-      height={36}
+      width={props.width}
+      height={props.height}
       viewBox='0 0 24 24'
-      strokeWidth={1}
+      strokeWidth={props.strokeWidth}
       stroke='currentColor'
       fill='none'
       strokeLinecap='round'
