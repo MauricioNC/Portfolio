@@ -20,7 +20,7 @@ function Topbar() {
   }
 
   return (
-    <nav className='flex flex-row w-full justify-between items-center px-4 md:px-20 lg:px-24 xl:px-36 -bottom-20 left-0 fixed md:absolute md:top-6 md:bottom-auto bg-[#121414] md:bg-transparent z-20 overflow-x-scroll whitespace-nowrap transition-all duration-150 md:overflow-hidden md:whitespace-normal md:transition-none md:duration-0'>
+    <nav className='flex flex-row w-full justify-between items-center px-4 -bottom-20 left-0 fixed md:absolute md:top-6 md:bottom-auto bg-[#121414] md:bg-transparent z-20 overflow-x-scroll whitespace-nowrap transition-all duration-150 md:overflow-hidden md:whitespace-normal md:transition-none md:duration-0'>
       <div className="text-2xl hidden md:flex gap-1 md:before:content-['</'] md:before:text-[crimson] md:before:font-bold md:after:content-['>'] md:after:font-bold md:after:text-[crimson] md:before:hover:-translate-x-2 md:before:transition-all md:before:duration-300 md:after:hover:translate-x-2 md:after:transition-all md:after:duration-300">
         MauricioNC
       </div>

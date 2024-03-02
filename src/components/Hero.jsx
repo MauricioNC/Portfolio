@@ -4,8 +4,8 @@ import Linkedin from './icons/Linkedin'
 
 function Hero() {
   return (
-    <article className='w-full flex flex-col lg:flex-row justify-center lg:justify-between items-center lg:items-stretch min-h-[100vh] mb-20'>
-      <div className='flex flex-col justify-center lg:items-start gap-2 md:text-left'>
+    <article className='w-full flex flex-col lg:flex-row justify-center lg:justify-around items-center lg:items-stretch min-h-[50vh] mt-24 md:mt-44 mb-20'>
+      <div className='flex flex-col justify-center lg:items-start gap-2 md:text-left px-4'>
         <h2 className='text-balance'>Hi there!</h2>
         <h1 className='text-balance mb-5 md:leading-[1.13]'>
           I'm Mauricio, Back-end developer with{' '}
@@ -32,7 +32,7 @@ function Hero() {
           </div>
         </div>
       </div>
-      <picture className='aspect-square rounded-md w-[300px] h-[400px] 2xl:w-[400px] 2xl:h-[550px] mt-10 lg:mt-0 self-center md:after:hover:shadow-[5px_5px_10px_0_rgba(24,24,24,0.74)]'>
+      <picture className='aspect-square rounded-md w-[300px] h-[400px] 2xl:w-[350px] 2xl:h-[450px] mt-10 lg:mt-0 self-center md:after:hover:shadow-[5px_5px_10px_0_rgba(24,24,24,0.74)]'>
         <img
           className='object-cover rounded-md w-full h-full'
           src={profile}
