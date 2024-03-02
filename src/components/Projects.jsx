@@ -2,17 +2,20 @@ import newlineblog from '../assets/images/newlineblog.webp'
 import moviesnop from '../assets/images/moviesnop.webp'
 import ExternalLink from './icons/ExternalLink'
 import Github from './icons/Github'
+import ArrowUpRight from './icons/ArrowUpRight'
 
 function Projects() {
   return (
-    <section className='flex flex-col items-stretch'>
-      <div className="self-center mb-14 relative flex items-center justify-center before:content-[''] before:w-[136%] md:before:w-[130%] before:h-[0.18rem] before:bg-[crimson] before:absolute">
-        <h3 className="z-10 bg-[#1D2021] px-2 relative flex items-center before:-left-11 before:content[''] before:absolute before:w-2 before:h-2 before:bg-[crimson] before:rounded-full after:-right-11 after:content[''] after:absolute after:w-2 after:h-2 after:bg-[crimson] after:rounded-full">
-          Latest projects
-        </h3>
-      </div>
+    <section className='flex flex-col'>
       <div className='columns-1 md:columns-2 gap-5 space-y-5'>
         <article className='w-full break-inside-avoid group rounded-lg transition duration-500 ease-in-out'>
+          <div className='flex flex-row justify-center items-center'>
+            <div className="mb-14 relative flex items-center justify-center before:content-[''] before:w-[136%] md:before:w-[130%] before:h-[0.18rem] before:bg-[crimson] before:absolute">
+              <h3 className="z-10 bg-[#1D2021] px-2 relative flex items-center before:-left-9 2xl:before:-left-11  before:content[''] before:absolute before:w-2 before:h-2 before:bg-[crimson] before:rounded-full after:-right-9 2xl:after:-right-11 after:content[''] after:absolute after:w-2 after:h-2 after:bg-[crimson] after:rounded-full">
+                Latest projects
+              </h3>
+            </div>
+          </div>
           <div className='relative overflow-clip rounded-tl-md rounded-tr-md'>
             <img
               src={newlineblog}
@@ -71,6 +74,12 @@ function Projects() {
             </div>
           </div>
         </article>
+        <div className='flex flex-col justify-center items-center'>
+          <a className='w-36 h-36 text-sm p-4 border-[0.12rem] border-[#ffffffa1] rounded-full text-center flex flex-col items-center justify-center md:hover:cursor-pointer'>
+            <ArrowUpRight width={24} height={24} strokeWidth={2} />
+            View all projects
+          </a>
+        </div>
       </div>
     </section>
   )
