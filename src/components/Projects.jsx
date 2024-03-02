@@ -12,7 +12,7 @@ function Projects() {
         </h3>
       </div>
       <div className='columns-1 md:columns-2 gap-5 space-y-5'>
-        <article className='w-full break-inside-avoid group md:hover:bg-[#181a1a] rounded-lg transition duration-500 ease-in-out'>
+        <article className='w-full break-inside-avoid group rounded-lg transition duration-500 ease-in-out'>
           <div className='relative overflow-clip rounded-tl-md rounded-tr-md'>
             <img
               src={newlineblog}
@@ -38,7 +38,7 @@ function Projects() {
             </div>
           </div>
         </article>
-        <article className='w-full break-inside-avoid group md:hover:bg-[#181a1a] rounded-lg transition duration-500 ease-in-out'>
+        <article className='w-full break-inside-avoid group rounded-lg transition duration-500 ease-in-out'>
           <div className='relative overflow-clip rounded-tl-md rounded-tr-md'>
             <img
               src={moviesnop}
