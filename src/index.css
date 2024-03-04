@@ -11,6 +11,10 @@
   font-family: 'Montserrat';
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: #fffffff5;
 }

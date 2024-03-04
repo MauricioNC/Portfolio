@@ -27,19 +27,13 @@ function Topbar() {
       <div className='w-full md:w-auto'>
         <ul className='flex flex-row gap-4 items-center justify-between md:justify-normal'>
           <li className='p-2 rounded-md hover:text-[crimson] transition-all'>
-            <a href='#'>Experience</a>
+            <a href='/#experience'>Experience</a>
           </li>
           <li className='p-2 rounded-md hover:text-[crimson] transition-all'>
-            <a href='#'>Projects</a>
+            <a href='/#projects'>Projects</a>
           </li>
           <li className='p-2 rounded-md hover:text-[crimson] transition-all'>
-            <a href='#'>Soft skills</a>
-          </li>
-          <li className='p-2 rounded-md hover:text-[crimson] transition-all'>
-            <a href='#'>About me</a>
-          </li>
-          <li className='p-2 rounded-md hover:text-[crimson] transition-all'>
-            <a href='#'>Hobbies</a>
+            <a href='/#about'>About me</a>
           </li>
         </ul>
       </div>
