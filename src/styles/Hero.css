@@ -1,10 +1,10 @@
-picture, img {
+#profile_hero_image, img {
   position: relative;
   transition: all 0.3s linear;
   z-index: 1;
 }
 
-picture::before {
+#profile_hero_image::before {
   background-color: crimson;
   border-radius: 6px;
   box-shadow: 5px 5px 10px 0 #0f0f0f;
@@ -18,7 +18,7 @@ picture::before {
   z-index: -1;
 }
 
-picture::after {
+#profile_hero_image::after {
   background-color: transparent;
   border-radius: 6px;
   content: '';
@@ -33,11 +33,11 @@ picture::after {
   z-index: 0;
 }
 
-picture {
+#profile_hero_image {
   @apply md:hover:scale-[1.01] md:hover:-translate-x-2 md:hover:-translate-y-2 md:before:hover:shadow-[5px_5px_20px_0_#050505] md:before:hover:mt-[20px] md:before:hover:ml-[20px] md:before:hover:scale-[0.97];
 
 }
 
-picture:hover img{
+#profile_hero_image:hover img{
   filter: saturate(125%)
 }
