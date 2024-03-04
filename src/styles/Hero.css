@@ -34,7 +34,8 @@ picture::after {
 }
 
 picture {
-  @apply hover:scale-[1.01] hover:-translate-x-2 hover:-translate-y-2 before:hover:shadow-[5px_5px_20px_0_#050505] before:hover:mt-[20px] before:hover:ml-[20px] before:hover:scale-[0.97];
+  @apply md:hover:scale-[1.01] md:hover:-translate-x-2 md:hover:-translate-y-2 md:before:hover:shadow-[5px_5px_20px_0_#050505] md:before:hover:mt-[20px] md:before:hover:ml-[20px] md:before:hover:scale-[0.97];
+
 }
 
 picture:hover img{

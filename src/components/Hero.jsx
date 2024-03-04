@@ -32,11 +32,13 @@ function Hero() {
           </div>
         </div>
       </div>
-      <picture className='aspect-square rounded-md w-[300px] h-[400px] 2xl:w-[350px] 2xl:h-[450px] mt-10 lg:mt-0 self-center md:after:hover:shadow-[5px_5px_10px_0_rgba(24,24,24,0.74)]'>
+      <picture className='aspect-square rounded-md w-[300px] h-[350px] 2xl:w-[300px] 2xl:h-[350px] mt-10 lg:mt-0 self-center md:after:hover:shadow-[5px_5px_10px_0_rgba(24,24,24,0.74)]'>
         <img
-          className='object-cover rounded-md w-full h-full'
-          src={profile}
+          className='object-cover object-bottom rounded-md w-full h-full overflow-clip'
+          loading='eager'
+          fetchpriority='high'
           alt='User profile image'
+          src={profile}
         />
       </picture>
     </article>
