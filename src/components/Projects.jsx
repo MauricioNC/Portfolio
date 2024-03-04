@@ -18,10 +18,10 @@ function Projects() {
           </div>
           <div className='relative overflow-clip rounded-tl-md rounded-tr-md'>
             <img
-              src={newlineblog}
-              alt='New Line blog screenshot of the home page'
               className='aspect-video object-cover object-top rounded-tl-md rounded-tr-md h-38 md:h-48 xl:h-60 md:group-hover:scale-[1.05] transition-all duration-500 ease-in-out w-full'
               loading='lazy'
+              src={newlineblog}
+              alt='New Line blog screenshot of the home page'
             />
           </div>
           <div className='p-3'>
@@ -44,10 +44,10 @@ function Projects() {
         <article className='w-full break-inside-avoid group rounded-lg transition duration-500 ease-in-out'>
           <div className='relative overflow-clip rounded-tl-md rounded-tr-md'>
             <img
-              src={moviesnop}
-              alt='New Line blog screenshot of the home page'
               className='aspect-video object-cover object-top rounded-tl-md rounded-tr-md h-38 md:h-48 xl:h-60 md:group-hover:scale-[1.05] transition-all duration-500 ease-in-out w-full'
               loading='lazy'
+              src={moviesnop}
+              alt='New Line blog screenshot of the home page'
             />
           </div>
           <div className='p-3'>
