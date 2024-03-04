@@ -6,7 +6,7 @@ import ArrowUpRight from './icons/ArrowUpRight'
 
 function Projects() {
   return (
-    <section className='flex flex-col'>
+    <section className='flex flex-col mb-32'>
       <div className='columns-1 md:columns-2 gap-5 space-y-5'>
         <article className='w-full break-inside-avoid group rounded-lg transition duration-500 ease-in-out'>
           <div className='flex flex-row justify-center items-center'>
