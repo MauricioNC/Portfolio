@@ -1,6 +1,8 @@
 function Experience() {
   return (
-    <section id="experience" className='flex flex-col justify-between items-stretch mb-32 container'>
+    <section
+      id='experience'
+      className='flex flex-col justify-between items-stretch mb-32 container'>
       <div className="mb-14 self-center relative flex items-center justify-center before:content-[''] before:w-[136%] md:before:w-[130%] before:h-[0.18rem] before:bg-[crimson] before:absolute">
         <h3 className="z-10 bg-[#1D2021] px-2 relative flex items-center before:-left-9 2xl:before:-left-11 before:content[''] before:absolute before:w-2 before:h-2 before:bg-[crimson] before:rounded-full after:-right-9 2xl:after:-right-11 after:content[''] after:absolute after:w-2 after:h-2 after:bg-[crimson] after:rounded-full">
           Job experience
@@ -27,7 +29,7 @@ function Experience() {
             production team's needed a new configuration, we had to create a new
             query to tailor the system to the production team's needs.
           </p>
-          <button className='my-3 p-1 bg-[crimson] rounded-sm hover:contrast-[1.1]'>
+          <button className='my-3 p-2 bg-[crimson] rounded-md hover:contrast-[1.1]'>
             Read more
           </button>
         </div>

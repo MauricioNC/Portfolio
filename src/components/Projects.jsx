@@ -46,7 +46,7 @@ function Projects() {
             <div className='flex flex-row gap-3 mt-3'>
               <a
                 href='https://github.com/MauricioNC/newline_blog'
-                className='p-2 bg-[crimson] rounded-md min-w-[70px] text-center flex flex-row justify-center items-center gap-2'
+                className='p-2 bg-[crimson] rounded-md min-w-[70px] text-center flex flex-row justify-center items-center gap-2 md:hover:contrast-[1.1]'
                 target='_blank'>
                 Repo
                 <Github width={22} height={22} strokeWidth={2} />
@@ -83,14 +83,14 @@ function Projects() {
             <div className='flex flex-row gap-3 mt-3'>
               <a
                 href='https://moviesnop.onrender.com/api-docs/index.html'
-                className='p-2 bg-[crimson] rounded-md min-w-[70px] text-center flex flex-row justify-center items-center gap-2'
+                className='p-2 bg-[crimson] rounded-md min-w-[70px] text-center flex flex-row justify-center items-center gap-2 md:hover:contrast-[1.1]'
                 target='_blank'>
                 Visit
                 <ExternalLink />
               </a>
               <a
                 href='https://github.com/MauricioNC/MovieSnop'
-                className='p-2 bg-[crimson] rounded-md min-w-[70px] text-center flex flex-row justify-center items-center gap-2'
+                className='p-2 bg-[crimson] rounded-md min-w-[70px] text-center flex flex-row justify-center items-center gap-2 md:hover:contrast-[1.1]'
                 target='_blank'>
                 Repo
                 <Github width={22} height={22} strokeWidth={2} />
@@ -124,7 +124,7 @@ function Projects() {
             <div className='flex flex-row gap-3 mt-3'>
               <a
                 href='https://github.com/MauricioNC/task_manager'
-                className='p-2 bg-[crimson] rounded-md min-w-[70px] text-center flex flex-row justify-center items-center gap-2'
+                className='p-2 bg-[crimson] rounded-md min-w-[70px] text-center flex flex-row justify-center items-center gap-2 md:hover:contrast-[1.1]'
                 target='_blank'>
                 Repo
                 <Github width={22} height={22} strokeWidth={2} />
