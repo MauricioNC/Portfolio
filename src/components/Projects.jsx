@@ -1,5 +1,6 @@
 import newlineblog from '../assets/images/newlineblog.webp'
 import moviesnop from '../assets/images/moviesnop.webp'
+import tasks_manager from '../assets/images/tasks_manager.webp'
 import ExternalLink from './icons/ExternalLink'
 import Github from './icons/Github'
 import ArrowUpRight from './icons/ArrowUpRight'
@@ -26,10 +27,22 @@ function Projects() {
           </div>
           <div className='p-3'>
             <h3 className='mb-3 text-[crimson]'>New line blog</h3>
-            <p>
-              Blog for my YouTube channel where I share content about Ruby and
-              Ruby on Rails among other programming-related content.
-            </p>
+            <div>
+              <p>
+                Blog for my YouTube channel where I share content about Ruby and
+                Ruby on Rails among other programming-related content.
+              </p>
+              <footer className='mt-5 pt-3'>
+                <ul className='flex flex-row text-xs font-semibold gap-2 text-[#fffff57c]'>
+                  <li className='bg-[#0f111173] p-1 rounded-md'>
+                    Ruby on rails
+                  </li>
+                  <li className='bg-[#0f111173] p-1 rounded-md'>JWT</li>
+                  <li className='bg-[#0f111173] p-1 rounded-md'>Sidekiq</li>
+                  <li className='bg-[#0f111173] p-1 rounded-md'>Amazon S3</li>
+                </ul>
+              </footer>
+            </div>
             <div className='flex flex-row gap-3 mt-3'>
               <a
                 href='https://github.com/MauricioNC/newline_blog'
@@ -52,10 +65,21 @@ function Projects() {
           </div>
           <div className='p-3'>
             <h3 className='mb-3 text-[crimson]'>Movies API</h3>
-            <p>
-              Movies API deployed on Render and documented with Swagger. This
-              API use JWT tokens as authorization token.
-            </p>
+            <div>
+              <p>
+                Movies API deployed on Render and documented with Swagger. This
+                API use JWT tokens as authorization token.
+              </p>
+              <footer className='mt-5 pt-3'>
+                <ul className='flex flex-row text-xs font-semibold gap-2 text-[#fffff57c]'>
+                  <li className='bg-[#0f111173] p-1 rounded-md'>
+                    Ruby on rails
+                  </li>
+                  <li className='bg-[#0f111173] p-1 rounded-md'>JWT</li>
+                  <li className='bg-[#0f111173] p-1 rounded-md'>PostgreSQL</li>
+                </ul>
+              </footer>
+            </div>
             <div className='flex flex-row gap-3 mt-3'>
               <a
                 href='https://moviesnop.onrender.com/api-docs/index.html'
@@ -66,6 +90,40 @@ function Projects() {
               </a>
               <a
                 href='https://github.com/MauricioNC/MovieSnop'
+                className='p-2 bg-[crimson] rounded-md min-w-[70px] text-center flex flex-row justify-center items-center gap-2'
+                target='_blank'>
+                Repo
+                <Github width={22} height={22} strokeWidth={2} />
+              </a>
+            </div>
+          </div>
+        </article>
+        <article className='w-full break-inside-avoid group rounded-lg transition duration-500 ease-in-out'>
+          <div className='relative overflow-clip rounded-tl-md rounded-tr-md'>
+            <img
+              className='aspect-video object-cover object-top rounded-tl-md rounded-tr-md h-38 md:h-48 xl:h-60 md:group-hover:scale-[1.05] transition-all duration-500 ease-in-out w-full'
+              loading='lazy'
+              src={tasks_manager}
+              alt='MovieSnop API screenshot'
+            />
+          </div>
+          <div className='p-3'>
+            <h3 className='mb-3 text-[crimson]'>Tasks manager</h3>
+            <div>
+              <p>Basic task manger with login, CRUD and notifications.</p>
+              <footer className='mt-5 pt-3'>
+                <ul className='flex flex-row text-xs font-semibold gap-2 text-[#fffff57c]'>
+                  <li className='bg-[#0f111173] p-1 rounded-md'>
+                    Ruby on rails
+                  </li>
+                  <li className='bg-[#0f111173] p-1 rounded-md'>Turbo</li>
+                  <li className='bg-[#0f111173] p-1 rounded-md'>Stimulus</li>
+                </ul>
+              </footer>
+            </div>
+            <div className='flex flex-row gap-3 mt-3'>
+              <a
+                href='https://github.com/MauricioNC/task_manager'
                 className='p-2 bg-[crimson] rounded-md min-w-[70px] text-center flex flex-row justify-center items-center gap-2'
                 target='_blank'>
                 Repo
