@@ -9,8 +9,8 @@ import './index.css'
 function App() {
   return (
     <>
-      <div className='w-full'>
-        <Topbar />
+      <Topbar />
+      <div className='w-full relative'>
         <Hero />
       </div>
       <div className='w-full col-span-12 xl:col-start-3 xl:col-span-8'>

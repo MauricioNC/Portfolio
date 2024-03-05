@@ -1,43 +1,36 @@
 function Topbar() {
-  if (innerWidth <= 768) {
-    let lastScrollTop
-    let navbar
-    setTimeout(() => {
-      navbar = document.querySelector('nav')
-    }, 2)
-
-    window.addEventListener('scroll', function () {
-      let scrollTop = document.documentElement.scrollTop
-
-      if (scrollTop > lastScrollTop) {
-        navbar.style.bottom = '-50px'
-      } else {
-        navbar.style.bottom = '0'
-      }
-
-      lastScrollTop = scrollTop
-    })
-  }
+  window.addEventListener('scroll', function () {
+    const nav = document.querySelector('nav')
+    if (window.scrollY > 50) {
+      nav.style.backdropFilter = 'blur(10px)'
+      nav.style.backgroundColor = '#0e0f0f94'
+    } else {
+      nav.style.backdropFilter = 'blur(0px)'
+      nav.style.backgroundColor = 'transparent'
+    }
+  })
 
   return (
-    <nav className='flex flex-row w-full justify-between items-center px-4 -bottom-20 left-0 fixed md:absolute md:top-6 md:bottom-auto bg-[#121414] md:bg-transparent z-20 overflow-x-scroll whitespace-nowrap transition-all duration-150 md:overflow-hidden md:whitespace-normal md:transition-none md:duration-0'>
-      <div className="text-2xl hidden md:flex gap-1 md:before:content-['</'] md:before:text-[crimson] md:before:font-bold md:after:content-['>'] md:after:font-bold md:after:text-[crimson] md:before:hover:-translate-x-2 md:before:transition-all md:before:duration-300 md:after:hover:translate-x-2 md:after:transition-all md:after:duration-300">
-        MauricioNC
-      </div>
-      <div className='w-full md:w-auto'>
-        <ul className='flex flex-row gap-4 items-center justify-between md:justify-normal'>
-          <li className='p-2 rounded-md hover:text-[crimson] transition-all'>
-            <a href='/#experience'>Experience</a>
-          </li>
-          <li className='p-2 rounded-md hover:text-[crimson] transition-all'>
-            <a href='/#projects'>Projects</a>
-          </li>
-          <li className='p-2 rounded-md hover:text-[crimson] transition-all'>
-            <a href='/#about'>About me</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <header className='container fixed top-0 left-0 right-0 z-20 flex items-center justify-center mx-auto max-w-6xl pt-2'>
+      <nav className='flex justify-between items-center w-full rounded-md'>
+        <div className="text-2xl pl-3 hidden md:flex gap-1 md:before:content-['</'] md:before:text-[crimson] md:before:font-bold md:after:content-['>'] md:after:font-bold md:after:text-[crimson] md:before:hover:-translate-x-2 md:before:transition-all md:before:duration-300 md:after:hover:translate-x-2 md:after:transition-all md:after:duration-300">
+          MauricioNC
+        </div>
+        <div className='w-full md:w-auto'>
+          <ul className='flex flex-row gap-4 items-center justify-center md:justify-normal'>
+            <li className='p-3 rounded-md hover:text-[crimson] transition-all'>
+              <a href='/#experience'>Experience</a>
+            </li>
+            <li className='p-3 rounded-md hover:text-[crimson] transition-all'>
+              <a href='/#projects'>Projects</a>
+            </li>
+            <li className='p-3 rounded-md hover:text-[crimson] transition-all'>
+              <a href='/#about'>About me</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
   )
 }
 
