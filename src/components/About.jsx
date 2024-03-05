@@ -31,7 +31,7 @@ function About() {
         <figure className='aspect-square w-[280px] overflow-clip rounded-full ring-2 ring-[crimson] p-2 shadow-[5px_5px_10px_0px_#0f0f0f] md:col-start-5 md:col-span-2 place-self-center order-1 md:order-2'>
           <img
             src={about}
-            alt=''
+            alt='Mauricio Navarro'
             className='object-cover object-center rounded-full w-full h-full'
           />
         </figure>

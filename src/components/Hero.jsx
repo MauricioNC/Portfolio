@@ -20,13 +20,13 @@ function Hero() {
             <a
               className='bg-[#151718] p-2  relative rounded-full flex items-center justify-center transition-all duration-300 hover:contrast-[1.1]'
               href='https://www.linkedin.com/in/mauricionc/'
-              target='blank'>
+              target='_blank'>
               <Linkedin />
             </a>
             <a
               className='bg-[#151718] p-2  relative rounded-full flex items-center justify-center transition-all duration-300 hover:contrast-[1.1]'
               href='https://github.com/MauricioNC'
-              target='blank'>
+              target='_blank'>
               <Github width={36} height={36} strokeWidth={1} />
             </a>
           </div>
@@ -39,7 +39,7 @@ function Hero() {
           className='object-cover object-bottom rounded-md w-full h-full overflow-clip'
           loading='eager'
           fetchpriority='high'
-          alt='User profile image'
+          alt='Mauricio Navarro'
           src={profile}
         />
       </picture>

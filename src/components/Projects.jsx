@@ -34,7 +34,7 @@ function Projects() {
               <a
                 href='https://github.com/MauricioNC/newline_blog'
                 className='p-2 bg-[crimson] rounded-md min-w-[70px] text-center flex flex-row justify-center items-center gap-2'
-                target='blank'>
+                target='_blank'>
                 Repo
                 <Github width={22} height={22} strokeWidth={2} />
               </a>
@@ -47,7 +47,7 @@ function Projects() {
               className='aspect-video object-cover object-top rounded-tl-md rounded-tr-md h-38 md:h-48 xl:h-60 md:group-hover:scale-[1.05] transition-all duration-500 ease-in-out w-full'
               loading='lazy'
               src={moviesnop}
-              alt='New Line blog screenshot of the home page'
+              alt='MovieSnop API screenshot'
             />
           </div>
           <div className='p-3'>
@@ -60,14 +60,14 @@ function Projects() {
               <a
                 href='https://moviesnop.onrender.com/api-docs/index.html'
                 className='p-2 bg-[crimson] rounded-md min-w-[70px] text-center flex flex-row justify-center items-center gap-2'
-                target='blank'>
+                target='_blank'>
                 Visit
                 <ExternalLink />
               </a>
               <a
                 href='https://github.com/MauricioNC/MovieSnop'
                 className='p-2 bg-[crimson] rounded-md min-w-[70px] text-center flex flex-row justify-center items-center gap-2'
-                target='blank'>
+                target='_blank'>
                 Repo
                 <Github width={22} height={22} strokeWidth={2} />
               </a>
