@@ -74,7 +74,7 @@ function Projects() {
             </div>
           </div>
         </article>
-        <div className='flex flex-col justify-center items-center'>
+        <div className='hidden flex-col justify-center items-center'>
           <a className='w-36 h-36 text-sm p-4 border-[0.12rem] border-[#ffffffa1] rounded-full text-center flex flex-col items-center justify-center md:hover:cursor-pointer'>
             <ArrowUpRight width={24} height={24} strokeWidth={2} />
             View all projects
