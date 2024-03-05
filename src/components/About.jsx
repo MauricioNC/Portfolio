@@ -15,7 +15,7 @@ function About() {
           <p>
             I'm Mauricio Navarro,{' '}
             <strong>passionate for back-end development</strong>. I started in
-            this stressful world of software development in 2015.
+            this stressful world of software development in 2015 at high school.
           </p>
           <p>
             Learn stuffs about{' '}
