@@ -4,7 +4,7 @@ import Linkedin from './icons/Linkedin'
 
 function Hero() {
   return (
-    <article className='w-full flex flex-col lg:flex-row justify-center lg:justify-around items-center lg:items-stretch min-h-[50vh] mt-24 md:mt-44 mb-32'>
+    <article className='w-full flex flex-col lg:flex-row justify-center lg:justify-around items-center lg:items-stretch min-h-[50vh] mt-24 md:mt-44 mb-32 px-4 lg:max-w-4xl xl:max-w-6xl mx-auto'>
       <div className='flex flex-col justify-center lg:items-start gap-2 md:text-left px-4'>
         <h2 className='text-balance'>Hi there!</h2>
         <h1 className='text-balance mb-5 md:leading-[1.13]'>
