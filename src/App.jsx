@@ -10,9 +10,7 @@ function App() {
   return (
     <>
       <Topbar />
-      <div className='w-full relative'>
-        <Hero />
-      </div>
+      <Hero />
       <div className='w-full col-span-12 xl:col-start-3 xl:col-span-8'>
         <main>
           <Experience />
