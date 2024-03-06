@@ -38,12 +38,10 @@ function Projects() {
               </p>
               <footer className='mt-5 pt-3'>
                 <ul className='flex flex-row text-xs font-semibold gap-2 text-[#fffff57c]'>
-                  <li className='bg-[#0f111173] p-1 rounded-md'>
-                    Ruby on rails
-                  </li>
-                  <li className='bg-[#0f111173] p-1 rounded-md'>JWT</li>
-                  <li className='bg-[#0f111173] p-1 rounded-md'>Sidekiq</li>
-                  <li className='bg-[#0f111173] p-1 rounded-md'>Amazon S3</li>
+                  <li className='bg-[#0f1111] p-1 rounded-md'>Ruby on rails</li>
+                  <li className='bg-[#0f1111] p-1 rounded-md'>JWT</li>
+                  <li className='bg-[#0f1111] p-1 rounded-md'>Sidekiq</li>
+                  <li className='bg-[#0f1111] p-1 rounded-md'>Amazon S3</li>
                 </ul>
               </footer>
             </div>
@@ -76,11 +74,9 @@ function Projects() {
               </p>
               <footer className='mt-5 pt-3'>
                 <ul className='flex flex-row text-xs font-semibold gap-2 text-[#fffff57c]'>
-                  <li className='bg-[#0f111173] p-1 rounded-md'>
-                    Ruby on rails
-                  </li>
-                  <li className='bg-[#0f111173] p-1 rounded-md'>JWT</li>
-                  <li className='bg-[#0f111173] p-1 rounded-md'>PostgreSQL</li>
+                  <li className='bg-[#0f1111] p-1 rounded-md'>Ruby on rails</li>
+                  <li className='bg-[#0f1111] p-1 rounded-md'>JWT</li>
+                  <li className='bg-[#0f1111] p-1 rounded-md'>PostgreSQL</li>
                 </ul>
               </footer>
             </div>
@@ -117,11 +113,9 @@ function Projects() {
               <p>Basic task manger with login, CRUD and notifications.</p>
               <footer className='mt-5 pt-3'>
                 <ul className='flex flex-row text-xs font-semibold gap-2 text-[#fffff57c]'>
-                  <li className='bg-[#0f111173] p-1 rounded-md'>
-                    Ruby on rails
-                  </li>
-                  <li className='bg-[#0f111173] p-1 rounded-md'>Turbo</li>
-                  <li className='bg-[#0f111173] p-1 rounded-md'>Stimulus</li>
+                  <li className='bg-[#0f1111] p-1 rounded-md'>Ruby on rails</li>
+                  <li className='bg-[#0f1111] p-1 rounded-md'>Turbo</li>
+                  <li className='bg-[#0f1111] p-1 rounded-md'>Stimulus</li>
                 </ul>
               </footer>
             </div>
