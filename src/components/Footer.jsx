@@ -15,14 +15,21 @@ function Footer() {
       </div>
       <div>
         <p>
-          This portfolio is based on{' '}
-          <span className='font-bold'>midudev's</span> portfolio and{' '}
+          This portfolio is inspired on{' '}
+          <span>
+            <a 
+              href="https://porfolio.dev/"
+              target='blank'
+              className='font-bold'>
+                <span className='text-[crimson] brightness-75'>midudev's</span> portfolio and {' '}
+            </a>
+          </span>
           <span>
             <a
               href='https://www.behance.net/gallery/191441155/Personal-Protfolio'
               target='_blank'
               className='font-bold'>
-              jonaidjonaid3{' '}
+              <span className='text-[crimson] brightness-75'>jonaidjonaid3{' '}</span>
             </a>
           </span>
           design
