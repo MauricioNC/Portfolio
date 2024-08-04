@@ -1,0 +1,14 @@
+[
+  {
+    "jobTitle": "Systems Engineer",
+    "jobDescription": "I'm working on a system to save and show the digitized files in an efficient way. Also I help with technical issues like printers configurations, desktops problems, etc.",
+    "jobCompany": "Health Secretary of Colima",
+    "date": "May 2024 - Currently"
+  },
+  {
+    "jobTitle": "Systems Engineer",
+    "jobDescription": "I was member of the J&J team, primarily focused on assisting the development team in configuring information in the Camstar platform. My role involved leveraging Excel-based information on medical devices to tailor the system to the production team's needs. Utilizing Scrum methodology, our tasks and activities successfully completed, followed by rigorous testing by the QA team. In case ofany issue identified during this process, my team and I went back towork into the task to get the issue solved. Also, sometimes I helpedto my lead to test some configuration in the platform using basicSQL queries that let us identify for wrong outputs or if theproduction team's needed a new configuration, we had to create a newquery to tailor the system to the production team's needs.",
+    "jobCompany": "Tata Consyltancy Services",
+    "date": "Jan 2021 - Oct 2023"
+  }
+]
