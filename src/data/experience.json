@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Systems Engineer",
+    "date": "May 2024 - Currently",
+    "company": "Health Secretary of Colima",
+    "description": [
+      "I started at Helth Secretary of Colima at May of 2024 as Systems Engineer. My role her is to develop and implement a solution to start digitized the most important documents.",
+      "Currently, I'm working on a system that shows all the '.pdf' files in a directory shared by network. The strcuture of directories and subdirectories are named strategically in a way that each folder is a topic that the files belongs to.",
+      "This records are usefull to find quickly any file as well as the responsible of that file. It is a simple system but powerfull for future searches."
+    ],
+    "technologies": ["Ruby", "Ruby on Rails", "PostgreSQL", "Tailwind", "CSS"]
+  },
+  {
+    "title": "Systems Engineer",
+    "date": "Jan 2021 - Oct 2023",
+    "company": "Tata Consyltancy Services",
+    "description": [
+      "I was member of the J&J team, primarily focused on assisting the development team in configuring information in the Camstar platform. My role involved leveraging Excel-based information on medical devices to tailor the system to the production team's needs.",
+      "Utilizing Scrum methodology, our tasks and activities were successfully completed, followed by rigorous testing by the QA team. In case of any issue identified during this process, my team and I went back to work into the task to get it done.",
+      "Also, sometimes I helpedto my lead to test some configuration in the platform using basicSQL queries that let us identify for wrong outputs or if theproduction team's needed a new configuration, we had to create a newquery to tailor the system to the production team's needs."
+    ],
+    "technologies": ["SQL", "Excel", "Camstar"]
+  }
+]
