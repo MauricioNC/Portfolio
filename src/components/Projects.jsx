@@ -1,9 +1,5 @@
-import newlineblog from '../assets/images/newlineblog.webp'
-import moviesnop from '../assets/images/moviesnop.webp'
-import tasks_manager from '../assets/images/tasks_manager.webp'
 import ExternalLink from './icons/ExternalLink'
 import Github from './icons/Github'
-import ArrowUpRight from './icons/ArrowUpRight'
 import projectsData from '../data/projects.json'
 
 function Projects() {
