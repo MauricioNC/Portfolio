@@ -14,7 +14,7 @@ function Hero() {
         </h1>
         <div className='lg:self-start flex md:flex-row justify-start items-center gap-3'>
           <span className="md:flex flex-row items-center justify-center gap-3 text-lg relative after:content-[''] after:bg-[crimson] after:w-20 after:h-[0.13rem] after:z-10 after:right-0 hidden text-nowrap">
-            Checkout my
+            Check out my
           </span>
           <div className='flex flex-row justify-center gap-5 md:gap-3 w-full md:w-auto'>
             <a
