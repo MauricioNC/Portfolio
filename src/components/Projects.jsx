@@ -38,7 +38,7 @@ function Projects() {
                       <p>{ project.description }</p>
                     </div>
                     <footer className='mt-5 pt-3'>
-                      <ul className='flex flex-row text-xs gap-1'>
+                      <ul className='flex flex-row flex-wrap text-xs gap-1'>
                         { project.stack.map((technologie, idx) => <li key={ idx } className='bg-[#dc143c33] py-1 px-2 rounded-xl'>{ technologie }</li> ) }
                       </ul>
                       <div className='flex flex-row gap-3 mt-3'>
