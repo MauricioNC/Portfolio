@@ -3,24 +3,32 @@
     "title": "New line blog",
     "description": "Blog for my YouTube channel where I share content about Ruby and Ruby on Rails among other programming-related content.",
     "stack": ["Ruby on Rails", "JWT", "Sidekiq", "Amazon S3"],
-    "thumbnail": "./src/assets/images/newlineblog.webp",
+    "thumbnail": "https://portfolio-mauricio-navarro.s3.amazonaws.com/portforli-assets/newlineblog.webp",
     "repository": "https://github.com/MauricioNC/newline_blog",
-    "preview": ""
+    "demo": ""
   },
   {
     "title": "Movies API",
     "description": "Movies API deployed on Render and documented with Swagger. This API use JWT tokens as authorization token.",
     "stack": ["Ruby on Rails", "JWT", "PostgreSQL"],
-    "thumbnail": "./src/assets/images/moviesnop.webp",
+    "thumbnail": "https://portfolio-mauricio-navarro.s3.amazonaws.com/portforli-assets/moviesnop.webp",
     "repository": "https://github.com/MauricioNC/MovieSnop",
-    "preview": ""
+    "demo": ""
   },
   {
     "title": "Tasks manager",
     "description": "Basic task manger with login, CRUD and notifications.",
     "stack": ["Ruby on Rails", "Hotwire", "Turbo Frames", "Stimulus"],
-    "thumbnail": "./src/assets/images/tasks_manager.webp",
+    "thumbnail": "https://portfolio-mauricio-navarro.s3.amazonaws.com/portforli-assets/tasks_manager.webp",
     "repository": "https://github.com/MauricioNC/task_manager",
-    "preview": ""
+    "demo": ""
+  },
+  {
+    "title": "Earthquakes API",
+    "description": "Simple project to consume the Earthquakes API and listing some of the data withe a filter.",
+    "stack": ["Ruby on Rails", "React", "PostgreSQL", "Tailwind CSS"],
+    "thumbnail": "https://portfolio-mauricio-navarro.s3.amazonaws.com/portforli-assets/earthquakes-api.webp",
+    "repository": "https://github.com/MauricioNC/earthquake_client",
+    "demo": "https://earthquake-client.vercel.app/"
   }
 ]
