@@ -55,11 +55,11 @@ function Experience() {
         </div>
       </div>
       {modal && (
-        <div id="jobDescriptionModal" className="fixed flex flex-col justify-center items-center w-screen h-screen top-0 left-0 z-20">
-          <div className='overlay absolute bg-neutral-900 opacity-65 top-0 left-0 h-screen w-screen' onClick={toggleJobDescriptionModal}></div>
+        <div id="jobDescriptionModal" className="fixed flex flex-col justify-center items-center w-screen h-screen top-0 left-0 right-0 bottom-0 z-20">
+          <div className='overlay absolute bg-neutral-900 opacity-65 h-screen w-screen' onClick={toggleJobDescriptionModal}></div>
           {
-            <div className="z-30 flex flex-col justify-center items-center w-4/5 lg:w-1/3">
-              <div className='relative bg-[#292929] w-full p-8 rounded-lg shadow-lg shadow-neutral-900 flex flex-col justify-center items-start gap-3 overflow-y-auto'>
+            <div className="z-30 w-5/6 h-3/5 lg:w-1/3 overflow-y-auto">
+              <div className='bg-[#292929] w-full p-8 rounded-lg shadow-lg shadow-neutral-900 flex flex-col justify-center items-start gap-3'>
                 <button className='bg-[#1d2021] p-1 px-2 rounded-md self-end text-stone-300 text-md' onClick={toggleJobDescriptionModal}>Close</button>
                 <div className='relative flex flex-col gap-1'>
                   <h3 className='text-[crimson]'>{ actualJob.title }</h3>
