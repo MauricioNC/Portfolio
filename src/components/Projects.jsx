@@ -11,7 +11,7 @@ function Projects() {
     <section
       id='projects'
       className='flex flex-col mb-32 relative w-full py-20'>
-      <div className='columns-1 md:columns-2 gap-8 space-y-8 mx-auto px-4 lg:max-w-4xl xl:max-w-6xl'>
+      <div className='columns-1 md:columns-2 gap-12 space-y-8 mx-auto px-4 lg:max-w-4xl xl:max-w-6xl'>
         <section className='w-full break-inside-avoid group rounded-lg transition duration-500 ease-in-out'>
           <div className='flex flex-row justify-center items-center'>
             <div className='mb-14 relative flex items-center justify-center'>
@@ -27,7 +27,7 @@ function Projects() {
           projectsData.map((project, idx) => {
             return (
               <div key={ idx }>
-                <article className='w-full break-inside-avoid group rounded-lg transition duration-500 ease-in-out'>
+                <article className='w-full break-inside-avoid group rounded-lg transition duration-500 ease-in-out mb-12'>
                   <div className='relative overflow-clip rounded-md'>
                     <img
                       className='aspect-video object-cover object-top rounded-md h-38 md:h-48 xl:h-60 md:group-hover:scale-[1.05] transition-all duration-500 ease-in-out w-full'
@@ -40,33 +40,35 @@ function Projects() {
                     <h3 className='mb-3 text-[crimson]'>{ project.title }</h3>
                     <div>
                       <p>{ project.description }</p>
-                      <footer className='mt-5 pt-3'>
-                        <ul className='flex flex-row text-xs gap-1'>
-                          { project.stack.map((technologie, idx) => <li key={ idx } className='bg-[#dc143c33] py-1 px-2 rounded-xl'>{ technologie }</li> ) }
-                        </ul>
-                      </footer>
                     </div>
-                    <div className='flex flex-row gap-3 mt-3'>
-                      <a
-                        href={ project.repository }
-                        className='p-2 bg-[crimson] rounded-md min-w-[70px] text-center flex flex-row justify-center items-center gap-2 md:hover:contrast-[1.1]'
-                        target='_blank'>
-                        Repo
-                        <Github width={22} height={22} strokeWidth={2} />
-                      </a>
-                    </div>
+                    <footer className='mt-5 pt-3'>
+                      <ul className='flex flex-row text-xs gap-1'>
+                        { project.stack.map((technologie, idx) => <li key={ idx } className='bg-[#dc143c33] py-1 px-2 rounded-xl'>{ technologie }</li> ) }
+                      </ul>
+                      <div className='flex flex-row gap-3 mt-3'>
+                        <a
+                          href={ project.repository }
+                          className='p-2 bg-[crimson] rounded-md min-w-[70px] text-center flex flex-row justify-center items-center gap-2 md:hover:contrast-[1.1]'
+                          target='_blank'>
+                          Repo
+                          <Github width={22} height={22} strokeWidth={2} />
+                        </a>
+                        { project.demo && <a
+                            href={ project.demo }
+                            className='p-2 bg-[crimson] rounded-md min-w-[70px] text-center flex flex-row justify-center items-center gap-2 md:hover:contrast-[1.1]'
+                            target='_blank'>
+                            Demo
+                            <ExternalLink width={22} height={22} strokeWidth={2} />
+                          </a>
+                        }
+                      </div>
+                    </footer>
                   </div>
                 </article>
               </div>
             ) 
           })
         }
-        <div className='flex flex-col justify-center items-center h-[170px] lg:h-[400px] max-h-[400px]'>
-          <a className='w-36 h-36 lg:w-48 lg:h-48 text-lg p-4 border-[0.12rem] border-[#ffffffa1] rounded-full text-center flex flex-col items-center justify-center md:hover:cursor-pointer'>
-            <ArrowUpRight width={24} height={24} strokeWidth={2} />
-            View all projects
-          </a>
-        </div>
       </div>
     </section>
   )
