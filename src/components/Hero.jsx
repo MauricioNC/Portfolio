@@ -6,7 +6,7 @@ function Hero() {
   return (
     <article className='w-full flex flex-col md:flex-row justify-center md:justify-around items-center md:items-stretch min-h-[50vh] mt-24 md:mt-44 mb-32 lg:max-w-4xl xl:max-w-6xl mx-auto'>
       <div className='flex flex-col justify-center lg:items-start gap-2 md:text-left px-4 xl:max-w-[700px]'>
-        <h2 className='text-balance'>Hi there!</h2>
+        <span className='text-balance text-4xl font-medium'>Hi there!</span>
         <h1 className='text-balance mb-5 md:leading-[1.13]'>
           I'm Mauricio, Back-end developer with{' '}
           <span className='text-[crimson] font-semibold'>Ruby on Rails </span>

@@ -20,12 +20,12 @@ function Experience() {
   return (
     <section
       id='experience'
-      className='flex flex-col justify-between items-center mb-32 mx-auto px-4 lg:max-w-4xl xl:max-w-6xl z-20'>
+      className='flex flex-col justify-between items-center mb-8 md:mb-20 lg-mb-32 mx-auto px-4 lg:max-w-4xl xl:max-w-6xl z-20'>
       <div className='mb-14 relative flex items-center justify-center'>
         <span className="relative w-[60px] h-[0.18rem] bg-[crimson] flex items-center justify-start before:content-[''] before:absolute before:w-[10px] before:h-[10px] before:bg-[crimson] before:rounded-full"></span>
-        <h3 className='z-10 bg-transparent px-2 relative flex items-center'>
+        <h2 className='z-10 bg-transparent px-2 relative flex items-center'>
           Job experience
-        </h3>
+        </h2>
         <span className="relative w-[60px] h-[0.18rem] bg-[crimson] flex items-center justify-end before:content-[''] before:absolute before:w-[10px] before:h-[10px] before:bg-[crimson] before:rounded-full"></span>
       </div>
       <div className="experience_item self-center relative before:content-[''] before:w-[0.15rem] before:h-full before:bg-[#4e4e4e9f] before:absolute before:left-0 pl-10">

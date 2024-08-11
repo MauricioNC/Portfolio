@@ -6,15 +6,15 @@ function Projects() {
   return (
     <section
       id='projects'
-      className='flex flex-col mb-32 relative w-full py-20'>
-      <div className='columns-1 md:columns-2 gap-12 space-y-8 mx-auto px-4 lg:max-w-4xl xl:max-w-6xl'>
+      className='flex flex-col mb-8 md:mb-20 lg-mb-32 relative w-full py-20'>
+      <div className='columns-1 md:columns-2 gap-12 space-y-12 mx-auto px-4 lg:max-w-4xl xl:max-w-6xl'>
         <section className='w-full break-inside-avoid group rounded-lg transition duration-500 ease-in-out'>
-          <div className='flex flex-row justify-center items-center'>
-            <div className='mb-14 relative flex items-center justify-center'>
+          <div className='flex flex-row justify-center items-center relative'>
+            <div className='mb-16 absolute flex items-center justify-center'>
               <span className="relative w-[60px] h-[0.18rem] bg-[crimson] flex items-center justify-start before:content-[''] before:absolute before:w-[10px] before:h-[10px] before:bg-[crimson] before:rounded-full"></span>
-              <h3 className='z-10 bg-transparent px-2 relative flex items-center'>
+              <h2 className='z-10 bg-transparent px-2 relative flex items-center'>
                 Latest projects
-              </h3>
+              </h2>
               <span className="relative w-[60px] h-[0.18rem] bg-[crimson] flex items-center justify-end before:content-[''] before:absolute before:w-[10px] before:h-[10px] before:bg-[crimson] before:rounded-full"></span>
             </div>
           </div>
@@ -23,7 +23,7 @@ function Projects() {
           projectsData.map((project, idx) => {
             return (
               <div key={ idx }>
-                <article className='w-full break-inside-avoid group rounded-lg transition duration-500 ease-in-out mb-12'>
+                <article className='w-full break-inside-avoid group rounded-lg transition duration-500 ease-in-out'>
                   <div className='relative overflow-clip rounded-md'>
                     <img
                       className='aspect-video object-cover object-top rounded-md h-38 md:h-48 xl:h-60 md:group-hover:scale-[1.05] transition-all duration-500 ease-in-out w-full'
