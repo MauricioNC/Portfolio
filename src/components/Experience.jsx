@@ -20,12 +20,12 @@ function Experience() {
   return (
     <section
       id='experience'
-      className='flex flex-col justify-between items-center mb-32 mx-auto px-4 lg:max-w-4xl xl:max-w-6xl z-20'>
+      className='flex flex-col justify-between items-center mb-8 md:mb-20 lg-mb-32 mx-auto px-4 lg:max-w-4xl xl:max-w-6xl z-20'>
       <div className='mb-14 relative flex items-center justify-center'>
         <span className="relative w-[60px] h-[0.18rem] bg-[crimson] flex items-center justify-start before:content-[''] before:absolute before:w-[10px] before:h-[10px] before:bg-[crimson] before:rounded-full"></span>
-        <h3 className='z-10 bg-transparent px-2 relative flex items-center'>
+        <h2 className='z-10 bg-transparent px-2 relative flex items-center'>
           Job experience
-        </h3>
+        </h2>
         <span className="relative w-[60px] h-[0.18rem] bg-[crimson] flex items-center justify-end before:content-[''] before:absolute before:w-[10px] before:h-[10px] before:bg-[crimson] before:rounded-full"></span>
       </div>
       <div className="experience_item self-center relative before:content-[''] before:w-[0.15rem] before:h-full before:bg-[#4e4e4e9f] before:absolute before:left-0 pl-10">
@@ -55,11 +55,11 @@ function Experience() {
         </div>
       </div>
       {modal && (
-        <div id="jobDescriptionModal" className="fixed flex flex-col justify-center items-center w-screen h-screen top-0 left-0 z-20">
-          <div className='overlay absolute bg-neutral-900 opacity-65 top-0 left-0 h-screen w-screen' onClick={toggleJobDescriptionModal}></div>
+        <div id="jobDescriptionModal" className="fixed flex flex-col justify-center items-center w-screen h-screen top-0 left-0 right-0 bottom-0 z-20">
+          <div className='overlay absolute bg-neutral-900 opacity-65 h-screen w-screen' onClick={toggleJobDescriptionModal}></div>
           {
-            <div className="z-30 flex flex-col justify-center items-center w-4/5 lg:w-1/3">
-              <div className='relative bg-[#292929] w-full p-8 rounded-lg shadow-lg shadow-neutral-900 flex flex-col justify-center items-start gap-3 overflow-y-auto'>
+            <div className="z-30 w-5/6 h-3/5 lg:w-1/3 overflow-y-auto">
+              <div className='bg-[#292929] w-full p-8 rounded-lg shadow-lg shadow-neutral-900 flex flex-col justify-center items-start gap-3'>
                 <button className='bg-[#1d2021] p-1 px-2 rounded-md self-end text-stone-300 text-md' onClick={toggleJobDescriptionModal}>Close</button>
                 <div className='relative flex flex-col gap-1'>
                   <h3 className='text-[crimson]'>{ actualJob.title }</h3>
