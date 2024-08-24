@@ -1,13 +1,5 @@
 [
   {
-    "title": "New line blog",
-    "description": "Blog for my YouTube channel where I share content about Ruby and Ruby on Rails among other programming-related content.",
-    "stack": ["Ruby on Rails", "JWT", "Sidekiq", "Amazon S3"],
-    "thumbnail": "https://portfolio-mauricio-navarro.s3.amazonaws.com/portforli-assets/newlineblog.webp",
-    "repository": "https://github.com/MauricioNC/newline_blog",
-    "demo": ""
-  },
-  {
     "title": "Movies API",
     "description": "Movies API deployed on Render and documented with Swagger. This API use JWT tokens as authorization token.",
     "stack": ["Ruby on Rails", "JWT", "PostgreSQL"],
